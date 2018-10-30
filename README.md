@@ -103,3 +103,4 @@ if __name__ == '__main__':
 
         print('Querying for %s' % args.query)
         pprint.pprint(glove.most_similar(args.query, number=10))
+        #explain more in depth of the glove text and into the corpus model.nnz
